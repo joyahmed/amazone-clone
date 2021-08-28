@@ -1,6 +1,6 @@
-import React from "react";
-import "./Home.css";
-import Product from "./Product";
+import React from 'react';
+import './Home.css';
+import Product from './Product';
 
 const Home = () => {
 	return (
@@ -32,7 +32,7 @@ const Home = () => {
 				<div className='home__row'>
 					<Product
 						id='4903850'
-						title='Fitbit Versa 3 Health & Fitness Smartwatch with GPS, 24/7 Heart Rate, Alexa Built-in, 6+ Days Battery, Black/Black'
+						title='Fitbit Versa 3 Health & Fitness Smartwatch with GPS, 24/7 Heart Rate, Alexa Built-in, 6+ Days Battery, Black/Black, One Size (S & L Bands Included)'
 						price={229.0}
 						rating={4}
 						image='https://m.media-amazon.com/images/I/61ZXwnqqOuS._AC_SL1500_.jpg'

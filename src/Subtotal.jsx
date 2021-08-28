@@ -1,8 +1,8 @@
-import React from "react";
-import CurrencyFormat from "react-currency-format";
-import "./Subtotal.css";
-import { useStateValue } from "./StateProvider";
-import { getBasketTotal } from "./reducer";
+import React from 'react';
+import CurrencyFormat from 'react-currency-format';
+import './Subtotal.css';
+import { useStateValue } from './StateProvider';
+import { getBasketTotal } from './reducer';
 
 const Subtotal = () => {
 	const [{ basket }, dispatch] = useStateValue();
@@ -24,9 +24,9 @@ const Subtotal = () => {
 				)}
 				decimalScale={2}
 				value={getBasketTotal(basket)} // part of the homework
-				displayType={"text"}
+				displayType={'text'}
 				thousandSeparator={true}
-				prefix={"$"}
+				prefix={'$'}
 			/>
 
 			<button>Proceed to Checkout</button>
